@@ -20,7 +20,7 @@ int getCL(int i)
     return cl;
 }
 
-int uva100()
+void uva100()
 {
     int i, j, k;
     int ti, tj;
@@ -47,5 +47,4 @@ int uva100()
         }
         printf("%d %d %d\n", ti, tj, maxCL);
     }
-    return 0;
 }

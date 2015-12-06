@@ -2,10 +2,12 @@
 
 using namespace std;
 
-int uva100();
+void uva100();
+void uva272();
+void uvaXXX();
 
 int main()
 {
-    uva100();
+    uva272();
     return 0;
 }
