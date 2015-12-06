@@ -3,7 +3,7 @@
 	<iostream>
 	<cstdio>
 
-1449427443 source:c:\users\sandy\desktop\programmingcontests\day-1\main.cpp
+1449430803 source:c:\users\sandy\desktop\programmingcontests\day-1\main.cpp
 	<iostream>
 
 1449425671 source:c:\users\sandy\desktop\programmingcontests\day-1\template.cpp
@@ -15,7 +15,14 @@
 	<cstdio>
 	<cstring>
 
-1449428475 source:c:\users\sandy\desktop\programmingcontests\day-1\uva394.cpp
+1449430515 source:c:\users\sandy\desktop\programmingcontests\day-1\uva394.cpp
 	<iostream>
 	<cstdio>
+	<cstring>
+
+1449431488 source:c:\users\sandy\desktop\programmingcontests\day-1\uva483.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	<cctype>
 
