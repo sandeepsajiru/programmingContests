@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1449425206 source:c:\users\sandy\desktop\programmingcontests\day-1\uva100.cpp
+	<iostream>
+	<cstdio>
+
+1449425515 source:c:\users\sandy\desktop\programmingcontests\day-1\main.cpp
+	<iostream>
+
