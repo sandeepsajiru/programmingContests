@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1449380607 source:c:\users\sandy\desktop\backtracking\002-knighttourproblem.c
+	<stdbool.h>
+	<stdio.h>
+
+1449393932 source:c:\users\sandy\desktop\backtracking\main.c
+
+1449340765 source:c:\users\sandy\desktop\backtracking\001-permutations.c
+	<stdio.h>
+	<stdlib.h>
+
+1449382051 source:c:\users\sandy\desktop\backtracking\003-ratinmaze.c
+	<stdbool.h>
+	<stdio.h>
+
+1449386579 source:c:\users\sandy\desktop\backtracking\004-nqueens.c
+	<stdbool.h>
+	<stdio.h>
+
+1449391170 source:c:\users\sandy\desktop\backtracking\005-subsetsumproblem.c
+	<stdbool.h>
+	<stdio.h>
+
+1449393085 source:c:\users\sandy\desktop\backtracking\006-mcoloringproblem.c
+	<stdbool.h>
+	<stdio.h>
+
+1449394100 source:c:\users\sandy\desktop\backtracking\007-hamcycle.c
+	<stdbool.h>
+	<stdio.h>
+

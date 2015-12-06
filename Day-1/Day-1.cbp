@@ -33,7 +33,11 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
+		<Unit filename="template.cpp" />
 		<Unit filename="uva100.cpp" />
+		<Unit filename="uva272.cpp" />
+		<Unit filename="uva394.cpp" />
+		<Unit filename="uva483.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
