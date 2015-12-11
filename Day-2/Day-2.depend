@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1449853625 source:c:\users\sandy\desktop\programmingcontests\day-2\main.cpp
+1449866519 source:c:\users\sandy\desktop\programmingcontests\day-2\main.cpp
 	<iostream>
 
 1449837465 source:c:\users\sandy\desktop\programmingcontests\day-2\uva739.cpp
@@ -21,6 +21,12 @@
 	<cctype>
 
 1449854014 source:c:\users\sandy\desktop\programmingcontests\day-2\uva10921.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	<cctype>
+
+1449854513 source:c:\users\sandy\desktop\programmingcontests\day-2\uva11547.cpp
 	<iostream>
 	<cstdio>
 	<cstring>
