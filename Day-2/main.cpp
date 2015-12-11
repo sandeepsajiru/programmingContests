@@ -4,9 +4,10 @@ using namespace std;
 
 void uva739_1();
 void uva739_2();
+void uva11044();
 
 int main()
 {
-    uva739_2();
+    uva11044();
     return 0;
 }
