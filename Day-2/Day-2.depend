@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1449836642 source:c:\users\sandy\desktop\programmingcontests\day-2\main.cpp
+	<iostream>
+
+1449837232 source:c:\users\sandy\desktop\programmingcontests\day-2\uva739.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	<cctype>
+
