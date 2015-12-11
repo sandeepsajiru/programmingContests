@@ -28,11 +28,6 @@ void uva11150()
 }
 
 
-int main()
-{
-    uva11150();
-    return 0;
-}
 
 
 

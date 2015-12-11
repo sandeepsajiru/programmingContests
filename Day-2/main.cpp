@@ -9,4 +9,6 @@ void uva10703();
 void uva10921();
 void uva11547();
 void uva11150();
+void uva11727();
+
 
