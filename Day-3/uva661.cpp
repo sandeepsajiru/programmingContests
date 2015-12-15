@@ -12,8 +12,8 @@ int dc[30];
 int ds[30];
 void setzeroes()
 {
-    memset(dc, 0, sizeof(int));
-    memset(ds, 0, sizeof(int));
+    memset(dc, 0, 30*sizeof(int));
+    memset(ds, 0, 30*sizeof(int));
 }
 
 void fillCapacities(int n)
@@ -36,7 +36,7 @@ bool isBlownWithProcessSwitching(int m)
 
         if(ds[d]==0){
             tc+=dc[d];
-            if(tc>=FC)
+            if(tc>FC)
                 ans = true;
             if(tc>MC)
                 MC = tc;
@@ -71,10 +71,16 @@ void uva661()
             printf("Fuse was not blown.\n");
             printf("Maximal power consumption was %d amperes.\n", MC);
         }
-
+        printf("\n");
         setzeroes();
         MC = 0;
     }
+}
+
+int main()
+{
+    uva661();
+    return 0;
 }
 
 

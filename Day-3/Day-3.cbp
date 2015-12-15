@@ -34,6 +34,7 @@
 		</Compiler>
 		<Unit filename="main.cpp" />
 		<Unit filename="template.cpp" />
+		<Unit filename="uva661.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
