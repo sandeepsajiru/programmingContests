@@ -2,11 +2,11 @@
 
 using namespace std;
 
-void uvaXXX();
+void uva661();
 
 
 int main()
 {
-    uvaXXX();
+    uva661();
     return 0;
 }
