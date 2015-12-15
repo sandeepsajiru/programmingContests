@@ -12,3 +12,8 @@ void uva11150();
 void uva11727();
 
 
+int main()
+{
+    uva11727();
+    return 0;
+}
