@@ -9,7 +9,7 @@ using namespace std;
 int costs[CHARS_COUNT];
 void setCostZeroes()
 {
-    memset(costs, 0, sizeof(char)*CHARS_COUNT);
+    memset(costs, 0, sizeof(int)*CHARS_COUNT);
 }
 
 int getLineCost(char line[])
@@ -30,19 +30,16 @@ void uva11340()
     int ccost;
     while(t-->0)
     {
-        scanf("%d", &K);
-
-        fflush(stdin);
+        scanf("%d\n", &K);
 
         for(i=1;i<=K;i++){
-            gets(line);
-            sscanf(line, "%c %d", &c, &ccost);
+            //gets(line);
+            scanf("%c %d\n", &c, &ccost);
             costs[(int)c] = ccost;
             //printf("'%c' %d\n", c, ccost);
         }
 
-        scanf("%d", &lc);
-        fflush(stdin);
+        scanf("%d\n", &lc);
         //printf("LC: %d\n", lc);
         int totalCost=0;
         for(i=1;i<=lc;i++)
@@ -54,4 +51,11 @@ void uva11340()
         printf("%.2f$\n", totalCost/100.0);
         setCostZeroes();
     }
+}
+
+
+int main()
+{
+    uva11340();
+    return 0;
 }

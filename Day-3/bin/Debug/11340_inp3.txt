@@ -1,0 +1,203 @@
+5
+7
+a 3
+W 10
+A 100
+, 10
+k 7
+. 3
+I 13
+7
+ACM International Collegiate Programming Contest (abbreviated
+as ACM-ICPC or just ICPC) is an annual multi-tiered competition
+among the universities of the world. The ICPC challenges students
+to set ever higher standards of excellence for themselves
+through competition that rewards team work, problem analysis,
+and rapid software development.
+From Wikipedia.
+3
+C 4
+P 2
+E 3
+2
+[#127]
+TREE & STACK.
+12
+b 27
+g 34
+l 35
+p 19
+C 90
+R 80
+U 100
+( 1
+, 5
+) 1
+- 100
+. 17
+10
+A computer is a general-purpose device that can be programmed to carry out a
+set of arithmetic or logical operations automatically. Since a sequence of
+operations can be readily changed, the computer can solve more than one kind
+of problem.
+Conventionally, a computer consists of at least one processing element,
+typically a central processing unit (CPU), and some form of memory. The
+processing element carries out arithmetic and logic operations, and a
+sequencing and control unit can change the order of operations in response to
+stored information. Peripheral devices allow information to be retrieved from
+an external source, and the result of operations saved and retrieved.
+94
+! 0
+" 3
+# 4
+$ 5
+% 6
+& 7
+' 8
+( 9
+) 10
+* 11
++ 12
+, 13
+- 14
+. 15
+/ 16
+0 17
+1 18
+2 19
+3 20
+4 21
+5 22
+6 23
+7 24
+8 25
+9 26
+: 27
+; 28
+< 29
+= 30
+> 31
+? 32
+@ 33
+A 34
+B 35
+C 36
+D 37
+E 38
+F 39
+G 40
+H 41
+I 42
+J 43
+K 44
+L 45
+M 46
+N 47
+O 48
+P 49
+Q 50
+R 51
+S 52
+T 53
+U 54
+V 55
+W 56
+X 57
+Y 58
+Z 59
+[ 60
+\ 61
+] 62
+^ 63
+_ 64
+` 65
+a 66
+b 67
+c 68
+d 69
+e 70
+f 71
+g 72
+h 73
+i 74
+j 75
+k 76
+l 77
+m 78
+n 79
+o 80
+p 81
+q 82
+r 83
+s 84
+t 85
+u 86
+v 87
+w 88
+x 89
+y 90
+z 91
+{ 92
+| 93
+} 94
+~ 99
+3
+!"#$%&'()*+,-./0123456789:;<=>?
+@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_
+`abcdefghijklmnopqrstuvwxyz{|}~
+47
+$ 65
+' 30
+) 96
+* 45
+- 20
+. 0
+/ 71
+0 85
+1 50
+2 83
+3 80
+4 30
+7 97
+8 5
+9 72
+: 49
+; 38
+< 16
+B 44
+D 83
+F 3
+G 14
+I 89
+J 1
+L 43
+N 23
+Q 8
+T 45
+V 17
+Z 3
+[ 38
+\ 83
+a 93
+b 31
+d 4
+g 92
+h 33
+i 72
+j 86
+k 59
+m 68
+n 80
+p 2
+s 39
+t 70
+{ 54
+} 7
+7
+Time passed merrily in the large town which was his capital; strangers arrived every day at the court. One day, two rogues, calling themselves weavers, made their appearance. They gave out that they knew how to weave stuffs of the most beautiful colors and elaborate patterns, the clothes manufactured from which should have the wonderful property of remaining invisible to everyone who was unfit for the office he held, or who was extraordinarily simple in character.
+"These must, indeed, be splendid clothes!" thought the Emperor. "Had I such a suit, I might at once find out what men in my realms are unfit for their office, and also be able to distinguish the wise from the foolish! This stuff must be woven for me immediately." And he caused large sums of money to be given to both the weavers in order that they might begin their work directly.
+So the two pretended weavers set up two looms, and affected to work very busily, though in reality they did nothing at all. They asked for the most delicate silk and the purest gold thread; put both into their own knapsacks; and then continued their pretended work at the empty looms until late at night.
+"I will send my faithful old minister to the weavers," said the Emperor at last, after some deliberation, "he will be best able to see how the cloth looks; for he is a man of sense, and no one can be more suitable for his office than be is."
+So the faithful old minister went into the hall, where the knaves were working with all their might, at their empty looms. "What can be the meaning of this?" thought the old man, opening his eyes very wide. "I cannot discover the least bit of thread on the looms." However, he did not express his thoughts aloud.
+The poor old minister looked and looked, he could not discover anything on the looms, for a very good reason, viz: there was nothing there. "What!" thought he again. "Is it possible that I am a simpleton? I have never thought so myself; and no one must know it now if I am so. Can it be, that I am unfit for my office? No, that must not be said either. I will never confess that I could not see the stuff."
+"Well, Sir Minister!" said one of the knaves, still pretending to work. "You do not say whether the stuff pleases you." "Oh, it is excellent!" replied the old minister, looking at the loom through his spectacles. "This pattern, and the colors, yes, I will tell the Emperor without delay, how very beautiful I think them."
