@@ -35,6 +35,7 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="template.cpp" />
 		<Unit filename="uva10363.cpp" />
+		<Unit filename="uva10420.cpp" />
 		<Unit filename="uva11340.cpp" />
 		<Unit filename="uva661.cpp" />
 		<Unit filename="uva941.cpp" />
