@@ -78,9 +78,3 @@ void uva10363()
     }
 
 }
-
-int main()
-{
-    uva10363();
-    return 0;
-}
