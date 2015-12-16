@@ -14,7 +14,7 @@
 	<cstring>
 	<cctype>
 
-1450246535 source:c:\users\sandy\desktop\programmingcontests\day-3\uva11340.cpp
+1450246690 source:c:\users\sandy\desktop\programmingcontests\day-3\uva11340.cpp
 	<iostream>
 	<cstdio>
 	<cstring>
@@ -32,4 +32,11 @@
 	<cstring>
 	<cctype>
 	<algorithm>
+
+1450247398 source:c:\users\sandy\desktop\programmingcontests\day-3\uva10420.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	<cctype>
+	<cstdlib>
 
