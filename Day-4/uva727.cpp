@@ -20,88 +20,88 @@ int getPrecedence(char c)
         return 1;
     else if(c=='*' || c=='/')
         return 2;
-    else if(c==')' || c=='(')
-        return 3;
     return 0;
 }
 
 void uva727()
 {
-    char c;
-    char t;
-    bool isSecondInput = false;
     stack<int> stk;
-    char line[10];
+    char ans[50];
+    int a;
     int tc;
+    char c, t;
+    bool isFirstBlankLine  = true;
+    char line[10];
     scanf("%d\n", &tc);
     while(tc--)
     {
         a = 0;
         while(gets(line))
         {
-            if(strlen(line)==0)
+            // Ignore First Blank Line after test cases
+            if(isFirstBlankLine)
             {
-                if(isSecondInput)
-                {
-                    break;
-                }
+                isFirstBlankLine = false;
                 continue;
             }
-            else
-                isSecondInput = true;
-
+            // Empty Line Indicates End Of Test Data
+            if(strlen(line)==0)
+                break;
 
             c = line[0];
-
-            if(isdigit(c)) // DIGIT
-                ans[a++] = c;
-            else if(isOperator(c)) // OPERATOR
-            {
-                // IF HIGH PRI OPERATORS ARE IN STACK - POP AND PRINT THEM FIRST
-                while(!stk.empty())
-                {
-                    t = stk.top();
-                    if(isOperator(t) && getPrecedence(t)>=getPrecedence(c))
-                    {
-                        printf("%c", t);
-                        stk.pop();
-                    }
-                    else
-                        break;
-                }
-                stk.push(c);
-            }
-            else if(c=='(')
+            if(isdigit(c)) // DIGITS ARE PRINTED DIRECTLY
+                ans[a++]=c;
+            else if(c=='(') // PUSH EXPRESSION BEGINNING
             {
                 stk.push(c);
             }
             else if(c==')')
             {
+                // Pop and print till ( is found
                 while(!stk.empty())
                 {
                     t = stk.top();
-                    if(t!='(')
-                    {
-                        printf("%c", t);
-                        stk.pop();
-                    }
-                    else
+                    stk.pop();
+                    if(t=='(')
                         break;
+                    ans[a++]=t;
                 }
             }
-        }
+            else if(isOperator(c))
+            {
+                if(stk.empty())
+                    stk.push(c);
+                else
+                {
+                    t = stk.top();
+                    if(getPrecedence(t) < getPrecedence(c))
+                        stk.push(c);
+                    else
+                    {
+                        while(getPrecedence(t)>= getPrecedence(c))
+                        {
+                            ans[a++]=t;
+                            if(stk.empty())
+                                break;
+                            stk.pop();
+                            t = stk.top();
+                            if(t=='(')
+                                break;
+                        }
+                        stk.push(c);
+                    }
+                }
+            }
 
+        }
         while(!stk.empty())
         {
-            if(stk.top()!='(')
-                printf("%c", stk.top());
+            t = stk.top();
+            ans[a++]=t;
             stk.pop();
         }
-        printf("\n");
+        ans[a]='\0';
+        printf("%s\n", ans);
     }
 }
-int main()
-{
-    uva727();
-    return 0;
-}
+
