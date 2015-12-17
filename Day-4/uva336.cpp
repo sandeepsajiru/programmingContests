@@ -6,19 +6,30 @@
 
 using namespace std;
 
-#define MAX 1000
+#define MAX 100
 
 int d[MAX][MAX];
 bool visited[MAX];
-set<int> vertices;
+long vertices[MAX];
+int tv=0;
+
+int getIndex(int v)
+{
+    int i;
+    for(i=0;i<tv;i++)
+        if(vertices[i]==v)
+            return i;
+    return -1;
+}
 
 void reportAnswer(int s, int ttl, int CASE)
 {
+    int si = getIndex(s);
     queue< pair<int, int> > q;
     pair<int, int> p;
     int notReachable;
-    q.push(make_pair(s, ttl));
-    visited[s] = true;
+    q.push(make_pair(si, ttl));
+    visited[si] = true;
     while(!q.empty())
     {
         p = q.front();
@@ -36,9 +47,9 @@ void reportAnswer(int s, int ttl, int CASE)
     }
 
     notReachable= 0 ;
-    for(set<int>::iterator it=vertices.begin();it!=vertices.end();++it)
+    for(int i=0;i<tv;i++)
     {
-        if(visited[*it]==false)
+        if(visited[i]==false)
             notReachable++;
     }
 
@@ -55,23 +66,43 @@ void uva336()
         while(NC--)
         {
             scanf("%d %d", &u, &v);
-            vertices.insert(u);
-            vertices.insert(v);
-            d[u][v] = d[v][u] = 1;
+            if(getIndex(v)==-1)
+                vertices[tv++]=v;
+            if(getIndex(u)==-1)
+                vertices[tv++]=u;
+            d[getIndex(u)][getIndex(v)] = d[getIndex(v)][getIndex(u)] = 1;
         }
 
         // Read Query
         int s, ttl;
+        bool isSNew = false;
         while(scanf("%d %d", &s, &ttl)==2 && !(s==0 && ttl==0))
         {
+            // VERY VERY TRICKY TEST CASE
+            // S IS A NEW NODE THAT HASN'T BEEN INTRODUCED BEFORE QUERY
+            // AND SHOULDN'T BE CONSIDERED AFTER QUERY
+            if(getIndex(s)==-1){
+                vertices[tv++]=s;
+                isSNew = true;
+            }
             reportAnswer(s, ttl, CASE);
             memset(visited, 0, sizeof(visited));
+
+            // VERY VERY TRICKY TEST CASE
+            // S IS A NEW NODE THAT HASN'T BEEN INTRODUCED BEFORE QUERY
+            // AND SHOULDN'T BE CONSIDERED AFTER QUERY
+            if(isSNew)
+            {
+                tv--;
+                isSNew = false;
+            }
             CASE++;
         }
 
         // Reset Network Connectivity Matrix
         memset(d, 0, sizeof(d));
-        vertices.clear();
+        memset(d, 0, sizeof(vertices));
+        tv=0;
     }
 }
 
