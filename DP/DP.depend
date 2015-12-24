@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1450781725 source:c:\users\sandy\desktop\programmingcontests\dp\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1450779348 source:c:\users\sandy\desktop\programmingcontests\dp\printallpossiblechange.c
+	<stdio.h>
+	<stdlib.h>
+
+1450780606 source:c:\users\sandy\desktop\programmingcontests\dp\printallpossiblecoinchange.c
+	<stdio.h>
+	<stdlib.h>
+
+1450780687 source:c:\users\sandy\desktop\programmingcontests\dp\backtrackingcoinchange.c
+	<stdio.h>
+	<stdlib.h>
+

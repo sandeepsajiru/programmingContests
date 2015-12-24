@@ -64,7 +64,8 @@ void uva10703()
             markFilled(x1, y1, x2, y2);
         }
 
-        switch(freeSpots){
+        switch(freeSpots)
+        {
         case 0:
             printf("There is no empty spots.\n");
             break;

@@ -106,10 +106,3 @@ void uva336()
     }
 }
 
-int main()
-{
-    uva336();
-    //printf("%d", sizeof(d));
-
-    return 0;
-}
