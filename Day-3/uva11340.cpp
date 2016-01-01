@@ -7,6 +7,7 @@ using namespace std;
 #define CHARS_COUNT 280
 
 int costs[CHARS_COUNT];
+
 void setCostZeroes()
 {
     memset(costs, 0, sizeof costs);
@@ -64,7 +65,4 @@ void uva11340()
         setCostZeroes();
     }
 }
-
-
-
 

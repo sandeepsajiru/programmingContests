@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1451621003 source:c:\users\sandy\desktop\programmingcontests\hrank\solutions\main.cpp
+	<stdio.h>
+	<string.h>
+	<algorithm>
+
+1451620603 source:c:\users\sandy\desktop\programmingcontests\hrank\solutions\lexsubstrings.cpp
+	<stdio.h>
+	<string.h>
+	<algorithm>
+
+1451620608 source:c:\users\sandy\desktop\programmingcontests\hrank\solutions\timeconversion.cpp
+	<math.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	<limits.h>
+	<stdbool.h>
+
+1451620993 source:c:\users\sandy\desktop\programmingcontests\hrank\solutions\staircase.cpp
+	<cstdio>
+
